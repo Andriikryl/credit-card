@@ -88,3 +88,32 @@
     position:absolute;
     top: -200vh;
   }
+
+  .credit-card .horizontal-input-stack{
+    display: flex;
+    gap: .5rem;
+  }
+
+  .credit-card .cc-inputs input{
+    width: 5ch;
+    font-family: monospace;
+  }
+
+  .credit-card input ,
+  .credit-card select{
+    padding: .25em .5em;
+    border: none;
+    border-radius: .25em;
+    appearance: none;
+  }
+
+  .credit-card label {
+    font-size: .65rem;
+    text-transform: uppercase;
+  }
+
+  .credit-card .input-row{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
